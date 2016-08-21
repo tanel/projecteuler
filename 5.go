@@ -21,7 +21,6 @@ func findSmallestDividable(min, max int) int {
 		}
 		res++
 	}
-	return res
 }
 
 func dividesWithAll(n, min, max int) bool {
