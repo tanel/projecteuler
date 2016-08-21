@@ -13,16 +13,6 @@ func main() {
 	fmt.Println(tip.largestTotal())
 }
 
-func debug(v *vertex) {
-	fmt.Println(v)
-	if v.left != nil {
-		debug(v.left)
-	}
-	if v.right != nil {
-		debug(v.right)
-	}
-}
-
 func findTotals(v *vertex) {
 	if v == nil {
 		return
