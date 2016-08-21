@@ -10,10 +10,6 @@ func main() {
 	fmt.Println(counts)
 }
 
-func debug(n int) {
-	fmt.Println(n, "=", numberAsWord(n))
-}
-
 var words = []string{
 	"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
 	"eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"}
